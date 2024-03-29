@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Sales Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Computer Sales Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="#sales">Sales</a></li>
+        <li><a href="#inventory">Inventory</a></li>
+        <li><a href="#reports">Reports</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sales">
+    <h2>Sales</h2>
+    <!-- Form for adding a new sale -->
+    <form>
+      <label for="customer-name">Customer Name:</label>
+      <input type="text" id="customer-name" name="customer-name" required>
+      <label for="product">Product:</label>
+      <select id="product" name="product" required>
+        <option value="laptop">Laptop</option>
+        <option value="desktop">Desktop</option>
+        <!-- Add more options as needed -->
+      </select>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+      <button type="submit">Add Sale</button>
+    </form>
+    <!-- Table to display sales data -->
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Customer Name</th>
+          <th>Product</th>
+          <th>Quantity</th>
+          <!-- Add more columns as needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be populated dynamically -->
+      </tbody>
+    </table>
+  </section>
+
+  <section id="inventory">
+    <h2>Inventory</h2>
+    <!-- Inventory management functionality can be added here -->
+  </section>
+
+  <section id="reports">
+    <h2>Reports</h2>
+    <!-- Reports generation functionality can be added here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <!-- Contact information or a contact form can be added here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Computer Sales Management System. All rights reserved.</p>
+  </footer>
+  <a href="img">
+    <img src="srs" />
+    <img src="" />
+    <img src="" />
+    <img src="" />
+    <img src="" />
+    <img src="" />
+    <img src="" />
+    <img src="" />
+    <img src="" />
+  </a>
+</body>
+</html>
